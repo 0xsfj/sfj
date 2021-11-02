@@ -10,3 +10,4 @@
 
 - [x] Buy Domain
 - [x] Setup with Vercel
+- [x] Redirect ENS Delegate
