@@ -20,10 +20,13 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background: black;
+  color: white;
 }
 
 a {
   color: inherit;
+  text-decoration: none;
+  color: #eb4727;
   text-decoration: none;
 }
 

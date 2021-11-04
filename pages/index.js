@@ -19,20 +19,31 @@ export default function Home() {
     <>
       <Head>
         <title>sfj.eth</title>
-        <meta name="description" content="Web3 Interface Developer" />
+        <meta name="description" content="Web3 Frontend Engineer" />
         <link rel="icon" href="/favicon.ico" />
         {/* <link rel="preload" href="/fonts/Tendencious.otf" as="font" crossOrigin="" />
         <link rel="preload" href="/fonts/Rockyeah-Sans.otf" as="font" crossOrigin="" /> */}
       </Head>
 
       <main className={styles.main}>
-        <TitleSVG />
-        {/* <h1 className={styles.title}>sfj.eth</h1> */}
-
-        {/* <footer className={styles.footer}>
-          <div className={styles.footerContent}>
-            </div>
-          <p className="project">ERP Calculation Tool</p>
+        {/* <TitleSVG /> */}
+        <h1 className={styles.title}>
+          <a href="https://etherscan.io/address/0xe3d63c5b4c8cb6c76b3e9a1c766495e83af289f2">sfj.eth</a>
+        </h1>
+        <h2 className={styles.subtitle}>Web3 Frontend Engineer</h2>
+      </main>
+      <footer className={styles.footer}>
+        <p className={styles.description}>
+          <a href="" target="_blank">
+            github
+          </a>
+        </p>
+        <p className={styles.description}>
+          <a href="" target="_blank">
+            twitter
+          </a>
+        </p>
+        {/* <p className="project">ERP Calculation Tool</p>
           <p className="description">React Native iPad Dashboard</p>
           <a href="#" target="_blank" rel="noopener noreferrer">
             <p className="project">Halloween Horror</p>
@@ -45,13 +56,8 @@ export default function Home() {
           <a href="#" target="_blank" rel="noopener noreferrer">
             <p className="project">Solidity Guild</p>
             <p className="description">Nextjs Website</p>
-          </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            <p className="project">Halloween Horror</p>
-            <p className="description">NFT Game with Nextjs & Solidity on Testnet</p>
-          </a>
-        </footer> */}
-      </main>
+          </a> */}
+      </footer>
     </>
   );
 }
