@@ -34,12 +34,12 @@ export default function Home() {
       </main>
       <footer className={styles.footer}>
         <p className={styles.description}>
-          <a href="https://github.com/0xsfj" target="_blank">
+          <a href="https://github.com/0xsfj">
             github
           </a>
         </p>
         <p className={styles.description}>
-          <a href="https://twitter.com/0xsfj" target="_blank">
+          <a href="https://twitter.com/0xsfj">
             twitter
           </a>
         </p>
